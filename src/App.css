@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
+.size {
+  width: 3vw;
+  height: 4vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.size1 {
+  width: 4vw;
+  height: 6vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.size2 {
+  width: 6vw;
+  height: 8vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.transparent {
+  background-color: white;
+  border: 2px solid black;
+  border-right: none;
+}
+
+.bord {
+  border-left: none !important;
+  border: 2px solid black;
+  width: 20vw !important;
+  border-radius: 0 !important;
+}
+
+
+.transparent1 {
+  background-color: #002f34;
+  border: 2px solid black;
+  border-left: none;
+}
+
+.bord1 {
+  border-right: none !important;
+  border: 2px solid black;
+  width: 40vw;
+  border-radius: 0 !important;
+}
+
+.bt {
+  color: #002f34;
+}
+
+.bord2 {
+  border-bottom: 2px solid #002f34 !important;
+  font-size: 3vh;
+}
+
+.pos {
+  position: absolute;
+  top: 4.8rem;
+  right: 4rem;
+}
+
+.bg {
+  background-color: #f1eeee;
+}
+
+.heart:hover {
+  color: red;
+}
+
+.font {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #002f34;
+}
+
+fieldset {
+  border: none !important;
+}
+
+.just {
+ justify-content: flex-start !important;
+}
+
+.lis {
+  text-decoration: none;
+  color: black;
+}
+
+.lis:hover {
+  color: rgb(54, 165, 209);
+}
+
+.color {
+  color: #002f34;
+}
+
+.but {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.but li {
+  background-color: white;
+  list-style: none;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.but li:hover {
+  background-color: rgb(87, 126, 255);
 }
+
+
+/* .fi {
+  position: fixed;
+  z-index: 1;
+} */
+
+.si {
+  width: 9vw;
+}
+
+.bgc {
+  background-color: #f7f4f4;
+}
+
+.font1 {
+  color: #002F34A3;
+  font-size: 0.8rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+li:hover {
+  color: black;
+}
+
+.fo {
+  font-size: 0.9rem;
+}
+
+.ci {
+  width: 6vw;
+}
+
+.bgc1 {
+  background-color: #002F34;
+}
+
+.lastfo {
+  font-size: 0.9rem;
+}
+
+.change:hover {
+  color: rgb(35, 124, 224);
+  cursor: pointer;
+}
+
+
+/* @media (max-width: 576px) {  
+  .cards-main{
+  flex-wrap: wrap;
+}
+}  */
+
+  
+
